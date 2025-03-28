@@ -64,8 +64,8 @@ function parse_params() {
         # default values of variables set from params
         user_data_file=''
         meta_data_file=''
-        download_url="https://cdimage.ubuntu.com/ubuntu-server/focal/daily-live/current"
-        download_iso="focal-live-server-amd64.iso"
+        download_url="https://releases.ubuntu.com/22.04.5/"
+        download_iso="ubuntu-22.04.5-live-server-amd64.iso"
         original_iso="ubuntu-original-$today.iso"
         source_iso="${script_dir}/${original_iso}"
         destination_iso="${script_dir}/ubuntu-autoinstall-$today.iso"
